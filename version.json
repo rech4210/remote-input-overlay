@@ -1,7 +1,17 @@
 {
-  "latestVersionCode": 4,
-  "latestVersionName": "1.0.2",
-  "downloadUrl": "https://github.com/rech4210/remote-input-overlay/releases/latest/download/RemoteInputOverlay-v1.0.2.apk",
-  "noticeId": "v1.0.2-fix",
-  "notice": "v1.0.2 업데이트: 앱 복귀 시 즉시 업데이트 확인 + 노치/컷아웃 영역 포함 전체 화면 좌표 보정 + 기본 배치 좌표 정밀 반영"
+  "latestVersionCode": 5,
+  "latestVersionName": "1.1.0",
+  "latestServerVersion": "1.1.0",
+  "downloadUrl": "https://github.com/rech4210/remote-input-overlay/releases/latest/download/RemoteInputOverlay-v1.1.0.apk",
+  "feedbackUrl": "https://github.com/rech4210/remote-input-overlay/issues/new",
+  "noticeId": "v1.1.0-launch",
+  "notice": "v1.1.0 출시! QR 1초 연결, 프리셋 이름 커스텀 & 빠른 전환(📋), PC 서버 업데이트 알림, 로드맵·피드백 기능이 추가되었습니다.",
+  "changelog": "• 📷 PC 서버 QR 코드 스캔 1초 연결\n• 🏷 프리셋 이름 커스텀 & 제어 바 📋 빠른 전환\n• 💻 PC 서버(RemoteInputServer.exe) 업데이트 알림\n• 🗺 앱 내 업데이트 계획(로드맵) & 💬 피드백 제보 버튼",
+  "roadmap": [
+    "✅ QR 코드 1초 연결 (v1.1.0 완료)",
+    "✅ 프리셋 이름 커스텀 & 빠른 전환 (v1.1.0 완료)",
+    "✅ PC 서버 자동 업데이트 알림 (v1.1.0 완료)",
+    "📌 추천 프리셋 갤러리 (원탭 불러오기)",
+    "📌 버튼 복제 & 버튼별 색상 강조 커스텀"
+  ]
 }
