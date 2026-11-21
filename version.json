@@ -1,13 +1,13 @@
 {
-  "latestVersionCode": 14,
-  "latestVersionName": "1.5.0",
+  "latestVersionCode": 15,
+  "latestVersionName": "1.5.1",
   "latestServerVersion": "1.4.0",
-  "downloadUrl": "https://github.com/rech4210/remote-input-overlay/releases/latest/download/RemoteInputOverlay-v1.5.0.apk",
+  "downloadUrl": "https://github.com/rech4210/remote-input-overlay/releases/latest/download/RemoteInputOverlay-v1.5.1.apk",
   "feedbackUrl": "https://forms.gle/gepva2zctACe9hUK8",
   "presetSubmitUrl": "https://forms.gle/TFwHwKtfB8uzeE1U8",
-  "noticeId": "v1.5.0-analytics",
-  "notice": "v1.5.0 업데이트: 앱 개선을 위한 선택적(Opt-in) 익명 사용 통계가 추가되었습니다. (동의한 기기만 참여 · 키 입력/채팅/IP 절대 미수집)",
-  "changelog": "• 📊 선택적(Opt-in) 익명 사용 통계 추가 (최초 실행 시 동의 선택 · 메인 화면 하단에서 언제든 ON/OFF 가능)\n• 🔒 개인정보 보호 원칙: 키 입력 내용, 채팅, 클립보드, IP, 인증 토큰은 일절 수집하지 않음",
+  "noticeId": "v1.5.1-optout",
+  "notice": "v1.5.1 업데이트: 첫 실행 팝업을 없애고 메인 화면 하단에서 익명 사용 통계를 자유롭게 켜고 끌 수 있도록 간소화했습니다.",
+  "changelog": "• ✨ 첫 실행 통계 팝업 제거 및 메인 화면 1탭 ON/OFF 스위치(기본 ON · 키 입력/채팅/IP 미수집)로 간소화",
   "roadmap": [
     "✅ QR 코드 1초 연결 & 프리셋 이름 커스텀 (v1.1.0 완료)",
     "✅ 추천 프리셋 갤러리 & 버튼 복제 (v1.2.0 완료)",
@@ -16,7 +16,7 @@
     "✅ 프리셋 공유 분리 & 악의적 입력 방어 강화 (v1.3.1 완료)",
     "✅ 한/영 꼬임 없는 퀵 채팅 바 & 1탭 채팅 키 기본 배치 (v1.4.1 완료)",
     "✅ 태블릿 터치패드 120Hz 스무딩 & 스마트 Tab 발동 토글 (v1.4.3 완료)",
-    "✅ 선택적(Opt-in) 익명 사용 통계 대시보드 연동 (v1.5.0 완료)",
+    "✅ 익명 사용 통계(Opt-out) 대시보드 연동 (v1.5.1 완료)",
     "📌 개인 엄지 각도 보정 (10초 캘리브레이션)",
     "📌 후원자 전용 감성 꾸미기 테마 (네온/글래스/버튼 색상 커스텀 — 핵심 기능 차이 0%)"
   ]
