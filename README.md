@@ -23,7 +23,7 @@ flowchart LR
 | **PC** | Windows 10 / 11 (64비트) — Python 별도 설치 불필요 |
 | **네트워크** | [Tailscale](https://tailscale.com/download) (PC·스마트폰 모두 무료 설치) |
 
-- **📱 스마트폰용 APK 바로 받기**: [RemoteInputOverlay-v1.3.0.apk](https://github.com/rech4210/remote-input-overlay/releases/latest/download/RemoteInputOverlay-v1.3.0.apk)
+- **📱 스마트폰용 APK 바로 받기**: [RemoteInputOverlay-v1.3.1.apk](https://github.com/rech4210/remote-input-overlay/releases/latest/download/RemoteInputOverlay-v1.3.1.apk)
 - **💻 Windows PC용 EXE 바로 받기**: [RemoteInputServer.exe](https://github.com/rech4210/remote-input-overlay/releases/latest/download/RemoteInputServer.exe)
 - **📦 통합 압축파일 / 전체 버전**: [Releases 페이지](https://github.com/rech4210/remote-input-overlay/releases/latest)
 
@@ -48,7 +48,7 @@ flowchart LR
 > 조작하려는 PC 프로그램이나 게임이 **관리자 권한**으로 실행 중이라면, `RemoteInputServer.exe`도 **우클릭 → 관리자 권한으로 실행**해야 입력이 정상 전달됩니다.
 
 ### 2단계: 스마트폰 앱 설치 및 권한 허용
-1. 내려받은 **`RemoteInputOverlay-v1.3.0.apk`** 를 스마트폰에 설치합니다. *("출처를 알 수 없는 앱 허용" 팝업 시 허용)*
+1. 내려받은 **`RemoteInputOverlay-v1.3.1.apk`** 를 스마트폰에 설치합니다. *("출처를 알 수 없는 앱 허용" 팝업 시 허용)*
 2. 앱을 실행하고 **`GRANT OVERLAY PERMISSION`** 을 눌러 **"다른 앱 위에 표시"** 권한을 켭니다.
 
 ### 3단계: QR 스캔으로 1초 연결 & 실행
@@ -94,8 +94,8 @@ flowchart LR
 
 ## 4. 피드백 · 버그 제보 · 프리셋 공유
 
-사용 중 불편한 점, 버그 제보, 기능 아이디어 또는 추천하고 싶은 프리셋(`RIO_PRESET_V1:...`)이 있다면 **로그인 없이** 아래 링크로 남겨주세요!
-- **💬 비로그인 피드백 / 버그 제보하기**: https://forms.gle/gepva2zctACe9hUK8
+- **💬 피드백 / 버그 제보 (비로그인 가능)**: https://forms.gle/gepva2zctACe9hUK8
+- **📤 추천 프리셋 공유 신청 (스팸 방지 Google 로그인 필요)**: https://forms.gle/TFwHwKtfB8uzeE1U8
 
 ---
 
