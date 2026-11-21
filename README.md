@@ -2,71 +2,71 @@
 
 # Remote Input Overlay
 
-Android 스마트폰에서 원격 화면(Parsec 등) 위에 투명 터치 컨트롤러를 띄워, **Tailscale 사설망**을 통해 Windows PC로 키보드·마우스 입력을 전달하는 프로그램입니다.
+Android 스마트폰에서 원격 화면(Parsec 등) 위에 투명 터치 컨트롤러를 띄워, **Windows PC로 키보드·마우스 입력을 전달**하는 무료 도구입니다.
 
-### 실제 동작 미리보기
+---
+
+## 🚀 빠른 다운로드 (최신 버전 자동 연결)
+
+[![Windows PC용 EXE 다운로드](https://img.shields.io/badge/Windows_PC용-RemoteInputServer.exe-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/rech4210/remote-input-overlay/releases/latest/download/RemoteInputServer.exe)
+[![Android 스마트폰용 APK 다운로드](https://img.shields.io/badge/Android_폰용-APK_바로_받기-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/rech4210/remote-input-overlay/releases/latest/download/RemoteInputOverlay-latest.apk)
+[![전체 릴리즈 보기](https://img.shields.io/badge/전체_버전_&_ZIP-Releases-24292F?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rech4210/remote-input-overlay/releases/latest)
+
+<table>
+  <tr>
+    <td align="center" width="210">
+      <img src="assets/qr_apk_download.png" width="160" alt="Android APK 다운로드 QR 코드" /><br/>
+      <b>📱 폰 카메라로 찍어 바로 받기</b><br/>
+      <sub>PC에서 보고 계실 때 폰으로 옮길 필요 없이<br/>카메라로 찍으면 APK가 바로 내려받아집니다.</sub>
+    </td>
+    <td>
+      <b>✅ 사전 준비: Tailscale 무료 앱 (PC + 폰)</b><br/>
+      공유기 포트 설정 없이 내 PC와 스마트폰을 1:1로 안전하게 이어주는 무료 앱입니다.<br/>
+      <b>PC와 폰에 각각 설치 → 같은 구글/애플 아이디로 로그인 → 연결 스위치 ON</b>만 하면 끝입니다.<br/><br/>
+      👉 <b>PC용 Tailscale</b>: <a href="https://tailscale.com/download/windows">Windows 설치 파일 받기</a><br/>
+      👉 <b>폰용 Tailscale</b>: <a href="https://play.google.com/store/apps/details?id=com.tailscale.ipn">Google Play 스토어에서 설치</a><br/><br/>
+      <sub><b>지원 환경</b>: Android 8.0 이상 / Windows 10·11 (64비트, Python 설치 불필요)<br/>
+      ※ iOS(아이폰/아이패드)는 OS 정책상 다른 앱 위에 오버레이를 띄울 수 없어 미지원</sub>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 🎬 실제 동작 미리보기
 
 [![실제 동작 미리보기 (클릭 시 전체 4분 28초 MP4 영상 보기)](assets/demo_preview.gif)](https://github.com/rech4210/remote-input-overlay/releases/download/v1.4.3/demo.mp4)
 
 > [▶ 전체 고화질 시연 영상 보기 (4분 28초 · MP4)](https://github.com/rech4210/remote-input-overlay/releases/download/v1.4.3/demo.mp4)
 
-### 한눈에 보는 시작 순서 (약 3분)
-
-```mermaid
-flowchart LR
-    A["1. Tailscale 설치<br/>(PC + 폰 동일 계정)"] --> B["2. PC 서버 실행<br/>(RemoteInputServer.exe)"]
-    B --> C["3. 앱 설치 & QR 스캔<br/>(IP·토큰 자동 입력)"]
-    C --> D["4. START OVERLAY<br/>(Parsec 등에서 바로 사용)"]
-```
-
 ---
 
-## 1. 지원 환경 & 빠른 다운로드
+## ✅ 3분 설치 체크리스트 (처음 한 번만!)
 
-| 항목 | 요구 사항 |
-|:---|:---|
-| **스마트폰** | Android 8.0 이상 |
-| **PC** | Windows 10 / 11 (64비트) — Python 별도 설치 불필요 |
-| **네트워크** | [Tailscale](https://tailscale.com/download) (PC·스마트폰 모두 무료 설치) |
+### 1단계 · 연결 다리 놓기 (PC + 폰)
+- [ ] **PC**와 **스마트폰** 둘 다 **Tailscale** 설치
+- [ ] 두 기기 모두 **같은 계정(구글/애플 등)**으로 로그인 후 **연결 스위치(ON)** 켜기
 
-- **📱 스마트폰용 APK 바로 받기**: [RemoteInputOverlay-v1.5.2.apk](https://github.com/rech4210/remote-input-overlay/releases/latest/download/RemoteInputOverlay-v1.5.2.apk)
-- **💻 Windows PC용 EXE 바로 받기**: [RemoteInputServer.exe](https://github.com/rech4210/remote-input-overlay/releases/latest/download/RemoteInputServer.exe)
-- **📦 통합 압축파일 / 전체 버전**: [Releases 페이지](https://github.com/rech4210/remote-input-overlay/releases/latest)
-
-> [!NOTE]
-> iOS(아이폰/아이패드)는 운영체제 정책상 다른 앱 위에 오버레이 창을 띄울 수 없어 지원하지 않습니다.
-
----
-
-## 2. 처음 설치하고 연결하기 (3단계)
-
-> [!IMPORTANT]
-> PC와 스마트폰 모두 **Tailscale**을 설치하고 **같은 계정**으로 로그인해 연결 스위치(ON)를 켜 두어야 합니다.
-> - PC: [tailscale.com/download](https://tailscale.com/download) · 스마트폰: Google Play 스토어에서 `Tailscale` 설치
-
-### 1단계: Windows PC에서 서버 실행
-1. 내려받은 **`RemoteInputServer.exe`** 를 더블클릭해 실행합니다.
-   - Windows **"PC 보호"** 파란 창이 뜨면 **`추가 정보 → 실행`** 을 눌러주세요.
-   - 방화벽 알림이 뜨면 **`사설 네트워크 허용`** 을 선택합니다.
-2. 검은 콘솔 창이 열리며 **연결용 QR 코드**가 표시됩니다. *(같은 폴더에 이 PC만의 고유한 `.overlay_token` 파일이 자동 생성되므로 직접 만들 필요가 없습니다.)*
+### 2단계 · Windows PC에서 할 일
+- [ ] 위 버튼으로 **`RemoteInputServer.exe`** 다운로드 후 더블클릭 실행
+  - *"Windows의 PC 보호"* 파란 창이 뜨면 **`추가 정보` → `실행`** 클릭 *(개인 배포 파일이라 최초 1회만 표시)*
+  - 방화벽 알림이 뜨면 **`사설 네트워크 허용`** 선택
+- [ ] 검은 창이 열리고 **QR 코드**가 표시되는지 확인 *(같은 폴더에 `.overlay_token` 보안 키가 자동 생성됩니다)*
 
 > [!TIP]
 > 조작하려는 PC 프로그램이나 게임이 **관리자 권한**으로 실행 중이라면, `RemoteInputServer.exe`도 **우클릭 → 관리자 권한으로 실행**해야 입력이 정상 전달됩니다.
 
-### 2단계: 스마트폰 앱 설치 및 권한 허용
-1. 내려받은 **`RemoteInputOverlay-v1.5.2.apk`** 를 스마트폰에 설치합니다. *("출처를 알 수 없는 앱 허용" 팝업 시 허용)*
-2. 앱을 실행하고 **`GRANT OVERLAY PERMISSION`** 을 눌러 **"다른 앱 위에 표시"** 권한을 켭니다.
+### 3단계 · 스마트폰에서 할 일
+- [ ] 위 **QR 코드 스캔**(또는 APK 버튼 클릭)으로 앱 다운로드 후 설치 *("출처를 알 수 없는 앱 허용" 시 허용)*
+- [ ] 앱 실행 → **`GRANT OVERLAY PERMISSION`** 눌러 **"다른 앱 위에 표시"** 허용
+- [ ] 앱 상단 **`📷 QR 코드로 1초 연결`** 클릭 → PC 검은 창에 뜬 QR 코드 스캔 *(IP·포트·토큰 자동 입력)*
+- [ ] **`START OVERLAY`** 버튼 클릭 → 상단 상태 점이 **초록색(`●`)**이 되면 완료!
 
-### 3단계: QR 스캔으로 1초 연결 & 실행
-1. 앱 상단의 **`📷 QR 코드로 1초 연결`** 버튼을 누르고 PC 콘솔 화면의 QR 코드를 비춥니다.
-   - Tailscale IP · 포트(`8765`) · 토큰이 한 번에 자동 입력됩니다.
-   - *(카메라 스캔이 어려우면 PC 콘솔의 `Tailscale IP`와 `.overlay_token` 파일 내용을 직접 붙여넣으셔도 됩니다.)*
-2. **`START OVERLAY`** 버튼을 누릅니다.
-3. 화면에 오버레이가 뜨고 상단 상태 점이 **초록색(`●`)** 이 되면 연결 완료입니다. 이제 **Parsec 등 원격 앱을 켜고 가로모드로 전환**하면 기기 해상도에 맞춰진 기본 배치로 바로 조작할 수 있습니다.
+이제 **Parsec 등 원격 앱을 켜고 가로모드로 전환**하면 기기 해상도에 맞춰진 기본 배치로 바로 조작할 수 있습니다.
 
 ---
 
-## 3. 조작 및 주요 기능
+## 🎮 조작 및 주요 기능
 
 ### 상단 제어 바 아이콘
 
@@ -99,14 +99,14 @@ flowchart LR
 
 ---
 
-## 4. 피드백 · 버그 제보 · 프리셋 공유
+## 💬 피드백 · 버그 제보 · 프리셋 공유
 
 - **💬 피드백 / 버그 제보 (비로그인 가능)**: https://forms.gle/gepva2zctACe9hUK8
 - **📤 추천 프리셋 공유 신청 (스팸 방지 Google 로그인 필요)**: https://forms.gle/TFwHwKtfB8uzeE1U8
 
 ---
 
-## 5. 유의 사항 및 면책 안내
+## ⚠️ 유의 사항 및 면책 안내
 
 > [!WARNING]
 > 본 프로그램은 개인의 원격 입력 편의를 위해 제공되며, 사용에 따른 모든 책임은 사용자 본인에게 있습니다.
