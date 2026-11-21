@@ -1,4 +1,4 @@
-# Remote Input Overlay v1.0.0 — 사용 설명서
+# Remote Input Overlay — 사용 설명서
 
 스마트폰(Android)에서 Parsec 등 원격 화면 위에 투명 터치 컨트롤러를 띄워, **Tailscale 사설망**을 통해 원격 Windows PC로 키보드·마우스 입력을 전달하는 프로그램입니다.
 
@@ -31,7 +31,7 @@
 3. 같은 폴더에 **사용자마다 고유한 무작위 비밀번호**가 담긴 **`.overlay_token`** 파일이 자동으로 생성됩니다. *(직접 만들 필요 없이 메모장으로 열어 안에 적힌 문자열을 그대로 복사하시면 됩니다.)*
 
 ### 3단계: Android 스마트폰에 앱 설치 및 연결
-1. **`RemoteInputOverlay-v1.0.0.apk`** 파일을 스마트폰으로 옮겨 설치합니다.
+1. **`RemoteInputOverlay-vX.Y.Z.apk`** 파일을 스마트폰으로 옮겨 설치합니다.
    - *(설치 시 "출처를 알 수 없는 앱 허용" 팝업이 뜨면 허용해 주세요.)*
 2. **Remote Input Overlay** 앱을 열고 아래 순서대로 설정합니다:
    - **`GRANT OVERLAY PERMISSION`** 버튼 → "다른 앱 위에 표시" 허용

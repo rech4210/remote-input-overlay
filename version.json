@@ -1,7 +1,7 @@
 {
-  "latestVersionCode": 2,
-  "latestVersionName": "1.0.0",
-  "downloadUrl": "https://github.com/rech4210/remote-input-overlay/releases/latest/download/RemoteInputOverlay-v1.0.0.apk",
-  "noticeId": "v1.0.0-launch",
-  "notice": "Remote Input Overlay v1.0.0 정식 출시! 새 업데이트나 공지가 등록되면 이곳에 표시됩니다."
+  "latestVersionCode": 3,
+  "latestVersionName": "1.0.1",
+  "downloadUrl": "https://github.com/rech4210/remote-input-overlay/releases/latest/download/RemoteInputOverlay-v1.0.1.apk",
+  "noticeId": "v1.0.1-fix",
+  "notice": "v1.0.1 업데이트: 가로모드 전환 시 조이스틱이 커스텀 버튼 뒤에 가려져 이동되지 않던 문제를 수정했습니다."
 }
