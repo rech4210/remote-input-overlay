@@ -4,6 +4,12 @@
 
 Android 스마트폰에서 원격 화면(Parsec 등) 위에 투명 터치 컨트롤러를 띄워, **Tailscale 사설망**을 통해 Windows PC로 키보드·마우스 입력을 전달하는 프로그램입니다.
 
+### 실제 동작 미리보기
+
+[![실제 동작 미리보기 (클릭 시 전체 4분 28초 MP4 영상 보기)](assets/demo_preview.gif)](https://github.com/rech4210/remote-input-overlay/releases/download/v1.4.3/demo.mp4)
+
+> [▶ 전체 고화질 시연 영상 보기 (4분 28초 · MP4)](https://github.com/rech4210/remote-input-overlay/releases/download/v1.4.3/demo.mp4)
+
 ### 한눈에 보는 시작 순서 (약 3분)
 
 ```mermaid
