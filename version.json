@@ -1,13 +1,13 @@
 {
-  "latestVersionCode": 12,
-  "latestVersionName": "1.4.2",
+  "latestVersionCode": 13,
+  "latestVersionName": "1.4.3",
   "latestServerVersion": "1.4.0",
-  "downloadUrl": "https://github.com/rech4210/remote-input-overlay/releases/latest/download/RemoteInputOverlay-v1.4.2.apk",
+  "downloadUrl": "https://github.com/rech4210/remote-input-overlay/releases/latest/download/RemoteInputOverlay-v1.4.3.apk",
   "feedbackUrl": "https://forms.gle/gepva2zctACe9hUK8",
   "presetSubmitUrl": "https://forms.gle/TFwHwKtfB8uzeE1U8",
-  "noticeId": "v1.4.2-smooth-pad",
-  "notice": "v1.4.2 업데이트: 태블릿 터치패드 120Hz 서브픽셀 누산기 & 히스토리 샘플 처리로 마우스 이동 끊김 현상을 대폭 개선했습니다!",
-  "changelog": "• 🖱 태블릿 터치패드 서브픽셀 누산기(Sub-pixel Accumulator) 적용 — 느린 이동 시 프레임 드랍 제거\n• ⚡ Android 120Hz/240Hz 배치 터치 히스토리 샘플(historySize) 전체 처리 + 1€ 필터 응답성 튜닝",
+  "noticeId": "v1.4.3-tab-opt",
+  "notice": "v1.4.3 업데이트: 스마트 Tab '터치 즉시 발동' 설정 토글과 터치패드 EMA 속도 스무딩이 추가되었습니다.",
+  "changelog": "• 🎯 스마트 Tab '터치 즉시 Tab 발동' 설정 토글 추가 (ON: 꾹→밀기 / OFF: 떼고 밀기 선택 가능)\n• 🖱 터치패드 속도 감응 EMA 스무딩 추가 (연산 부담 0% 수준으로 미세 가속 튀김 완화)",
   "roadmap": [
     "✅ QR 코드 1초 연결 & 프리셋 이름 커스텀 (v1.1.0 완료)",
     "✅ 추천 프리셋 갤러리 & 버튼 복제 (v1.2.0 완료)",
@@ -15,7 +15,7 @@
     "✅ 조이스틱 1:1 테두리 추종 중심점 & 방향 전환 햅틱 틱 (v1.3.0 완료)",
     "✅ 프리셋 공유 분리 & 악의적 입력 방어 강화 (v1.3.1 완료)",
     "✅ 한/영 꼬임 없는 퀵 채팅 바 & 1탭 채팅 키 기본 배치 (v1.4.1 완료)",
-    "✅ 태블릿 터치패드 120Hz 부드러운 이동 개선 (v1.4.2 완료)",
+    "✅ 태블릿 터치패드 120Hz 스무딩 & 스마트 Tab 발동 토글 (v1.4.3 완료)",
     "📌 개인 엄지 각도 보정 (10초 캘리브레이션)",
     "📌 후원자 전용 감성 꾸미기 테마 (네온/글래스/버튼 색상 커스텀 — 핵심 기능 차이 0%)"
   ]
