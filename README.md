@@ -1,3 +1,5 @@
+![Remote Input Overlay](assets/banner.jpg)
+
 # Remote Input Overlay
 
 Android 스마트폰에서 원격 화면(Parsec 등) 위에 투명 터치 컨트롤러를 띄워, **Tailscale 사설망**을 통해 Windows PC로 키보드·마우스 입력을 전달하는 프로그램입니다.
@@ -21,7 +23,7 @@ flowchart LR
 | **PC** | Windows 10 / 11 (64비트) — Python 별도 설치 불필요 |
 | **네트워크** | [Tailscale](https://tailscale.com/download) (PC·스마트폰 모두 무료 설치) |
 
-- **📱 스마트폰용 APK 바로 받기**: [RemoteInputOverlay-v1.2.0.apk](https://github.com/rech4210/remote-input-overlay/releases/latest/download/RemoteInputOverlay-v1.2.0.apk)
+- **📱 스마트폰용 APK 바로 받기**: [RemoteInputOverlay-v1.2.1.apk](https://github.com/rech4210/remote-input-overlay/releases/latest/download/RemoteInputOverlay-v1.2.1.apk)
 - **💻 Windows PC용 EXE 바로 받기**: [RemoteInputServer.exe](https://github.com/rech4210/remote-input-overlay/releases/latest/download/RemoteInputServer.exe)
 - **📦 통합 압축파일 / 전체 버전**: [Releases 페이지](https://github.com/rech4210/remote-input-overlay/releases/latest)
 
@@ -46,7 +48,7 @@ flowchart LR
 > 조작하려는 PC 프로그램이나 게임이 **관리자 권한**으로 실행 중이라면, `RemoteInputServer.exe`도 **우클릭 → 관리자 권한으로 실행**해야 입력이 정상 전달됩니다.
 
 ### 2단계: 스마트폰 앱 설치 및 권한 허용
-1. 내려받은 **`RemoteInputOverlay-v1.2.0.apk`** 를 스마트폰에 설치합니다. *("출처를 알 수 없는 앱 허용" 팝업 시 허용)*
+1. 내려받은 **`RemoteInputOverlay-v1.2.1.apk`** 를 스마트폰에 설치합니다. *("출처를 알 수 없는 앱 허용" 팝업 시 허용)*
 2. 앱을 실행하고 **`GRANT OVERLAY PERMISSION`** 을 눌러 **"다른 앱 위에 표시"** 권한을 켭니다.
 
 ### 3단계: QR 스캔으로 1초 연결 & 실행
