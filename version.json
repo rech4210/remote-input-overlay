@@ -1,17 +1,16 @@
 {
-  "latestVersionCode": 5,
-  "latestVersionName": "1.1.0",
+  "latestVersionCode": 6,
+  "latestVersionName": "1.2.0",
   "latestServerVersion": "1.1.0",
-  "downloadUrl": "https://github.com/rech4210/remote-input-overlay/releases/latest/download/RemoteInputOverlay-v1.1.0.apk",
+  "downloadUrl": "https://github.com/rech4210/remote-input-overlay/releases/latest/download/RemoteInputOverlay-v1.2.0.apk",
   "feedbackUrl": "https://forms.gle/gepva2zctACe9hUK8",
-  "noticeId": "v1.1.0-launch",
-  "notice": "v1.1.0 출시! QR 1초 연결, 프리셋 이름 커스텀 & 빠른 전환(📋), PC 서버 업데이트 알림, 로드맵·피드백 기능이 추가되었습니다.",
-  "changelog": "• 📷 PC 서버 QR 코드 스캔 1초 연결\n• 🏷 프리셋 이름 커스텀 & 제어 바 📋 빠른 전환\n• 💻 PC 서버(RemoteInputServer.exe) 업데이트 알림\n• 🗺 앱 내 업데이트 계획(로드맵) & 💬 피드백 제보 버튼",
+  "noticeId": "v1.2.0-launch",
+  "notice": "v1.2.0 출시! 추천 프리셋 갤러리, 버튼 복제(⧉), 버튼 눌림 탄성 효과, 제어 바 폭 최적화(📋 → ⚙ 메뉴로 이동)가 적용되었습니다.",
+  "changelog": "• ☁️ 추천 프리셋 갤러리 (실시간 목록 불러오기 + 덮어쓰기 확인)\n• ⧉ 편집 모드 버튼 복제 기능\n• ✨ 버튼 눌림 탄성 축소 효과\n• 📐 빠른 프리셋 전환을 ⚙ 설정 안으로 이동해 제어 바 폭 축소",
   "roadmap": [
     "✅ QR 코드 1초 연결 (v1.1.0 완료)",
     "✅ 프리셋 이름 커스텀 & 빠른 전환 (v1.1.0 완료)",
-    "✅ PC 서버 자동 업데이트 알림 (v1.1.0 완료)",
-    "📌 추천 프리셋 갤러리 (원탭 불러오기)",
-    "📌 버튼 복제 & 버튼별 색상 강조 커스텀"
+    "✅ 추천 프리셋 갤러리 & 버튼 복제 (v1.2.0 완료)",
+    "📌 후원자 전용 감성 꾸미기 테마 (네온/글래스/버튼 색상 커스텀 — 핵심 기능 차이 0%)"
   ]
 }
