@@ -23,7 +23,7 @@ flowchart LR
 | **PC** | Windows 10 / 11 (64비트) — Python 별도 설치 불필요 |
 | **네트워크** | [Tailscale](https://tailscale.com/download) (PC·스마트폰 모두 무료 설치) |
 
-- **📱 스마트폰용 APK 바로 받기**: [RemoteInputOverlay-v1.3.1.apk](https://github.com/rech4210/remote-input-overlay/releases/latest/download/RemoteInputOverlay-v1.3.1.apk)
+- **📱 스마트폰용 APK 바로 받기**: [RemoteInputOverlay-v1.4.0.apk](https://github.com/rech4210/remote-input-overlay/releases/latest/download/RemoteInputOverlay-v1.4.0.apk)
 - **💻 Windows PC용 EXE 바로 받기**: [RemoteInputServer.exe](https://github.com/rech4210/remote-input-overlay/releases/latest/download/RemoteInputServer.exe)
 - **📦 통합 압축파일 / 전체 버전**: [Releases 페이지](https://github.com/rech4210/remote-input-overlay/releases/latest)
 
@@ -48,7 +48,7 @@ flowchart LR
 > 조작하려는 PC 프로그램이나 게임이 **관리자 권한**으로 실행 중이라면, `RemoteInputServer.exe`도 **우클릭 → 관리자 권한으로 실행**해야 입력이 정상 전달됩니다.
 
 ### 2단계: 스마트폰 앱 설치 및 권한 허용
-1. 내려받은 **`RemoteInputOverlay-v1.3.1.apk`** 를 스마트폰에 설치합니다. *("출처를 알 수 없는 앱 허용" 팝업 시 허용)*
+1. 내려받은 **`RemoteInputOverlay-v1.4.0.apk`** 를 스마트폰에 설치합니다. *("출처를 알 수 없는 앱 허용" 팝업 시 허용)*
 2. 앱을 실행하고 **`GRANT OVERLAY PERMISSION`** 을 눌러 **"다른 앱 위에 표시"** 권한을 켭니다.
 
 ### 3단계: QR 스캔으로 1초 연결 & 실행
@@ -73,6 +73,7 @@ flowchart LR
 | **`●`** | 연결 상태 *(초록=연결됨 · 노랑=재접속 · 빨강=끊김 / 탭하면 즉시 재접속)* |
 
 ### 핵심 기능 요약
+- **💬 퀵 채팅 바 (`⚙ → 💬 퀵 채팅` 또는 `💬채팅` 키 배치)**: 채팅 시 오버레이 버튼이 자동 숨김되어 키보드를 가리지 않으며, **Windows 한/영 상태와 무관하게 한글·영문 문장을 즉시 전송**하고 자동 복귀합니다.
 - **자유 버튼 편집 (`✎`)**: 드래그로 위치 이동(자석 스냅 지원), 버튼 탭으로 **이름 변경 · 크기(`S/M/L/XL`) · 1탭 누름 고정 · 연결키(Nested Key) · 이미지 설정 · 버튼 복제(`⧉`)** 지원
 - **태블릿 터치패드**: 드래그로 마우스 이동, **1손가락 탭 = 제자리 좌클릭**, **2손가락 탭 = 우클릭**, 상단 **`정밀`** 버튼으로 미세 이동 전환 *(`⚙ → 태블릿 정밀도`에서 감도 조절)*
 - **스마트 `Tab` 스와이프**: `TAB` 버튼을 누른 채 상/하/좌/우로 밀면 설정한 간격마다 1틱씩 탐색
