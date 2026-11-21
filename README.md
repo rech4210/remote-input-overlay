@@ -49,6 +49,7 @@ flowchart LR
 
 ### 1단계 · Tailscale 연결 (PC + 폰)
 - [ ] PC와 스마트폰에 **Tailscale** 설치 → **같은 계정(구글·애플 등)**으로 로그인 후 스위치 **ON**
+  - *폰에서 처음 켤 때 뜨는 **VPN 연결 요청 팝업**은 **`허용`**을 눌러주세요.*
 
 ### 2단계 · Windows PC 서버 실행
 - [ ] **`RemoteInputServer.exe`** 더블클릭 실행 → 검은 창에 **QR 코드** 표시 확인
