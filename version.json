@@ -3,7 +3,7 @@
   "latestVersionName": "1.1.0",
   "latestServerVersion": "1.1.0",
   "downloadUrl": "https://github.com/rech4210/remote-input-overlay/releases/latest/download/RemoteInputOverlay-v1.1.0.apk",
-  "feedbackUrl": "https://github.com/rech4210/remote-input-overlay/issues/new",
+  "feedbackUrl": "https://forms.gle/gepva2zctACe9hUK8",
   "noticeId": "v1.1.0-launch",
   "notice": "v1.1.0 출시! QR 1초 연결, 프리셋 이름 커스텀 & 빠른 전환(📋), PC 서버 업데이트 알림, 로드맵·피드백 기능이 추가되었습니다.",
   "changelog": "• 📷 PC 서버 QR 코드 스캔 1초 연결\n• 🏷 프리셋 이름 커스텀 & 제어 바 📋 빠른 전환\n• 💻 PC 서버(RemoteInputServer.exe) 업데이트 알림\n• 🗺 앱 내 업데이트 계획(로드맵) & 💬 피드백 제보 버튼",

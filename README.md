@@ -23,12 +23,14 @@ Android 스마트폰에서 원격 화면(Parsec 등) 위에 투명 터치 컨트
 > PC와 스마트폰 모두 **Tailscale**을 설치하고 **같은 계정**으로 로그인해 연결(ON)해 두어야 합니다.
 
 ### 1단계: 파일 다운로드
-[Releases 페이지](https://github.com/rech4210/remote-input-overlay/releases/latest)에서 아래 파일을 받습니다.
-- **PC용**: `RemoteInputServer.exe`
-- **스마트폰용**: `RemoteInputOverlay-vX.Y.Z.apk` *(또는 통합 압축파일 `.zip`)*
+아래 링크에서 PC용과 스마트폰용 파일을 각각 내려받습니다.
+- **📱 스마트폰용 APK 바로 받기**: [RemoteInputOverlay 최신 APK](https://github.com/rech4210/remote-input-overlay/releases/latest/download/RemoteInputOverlay-v1.1.0.apk)
+- **💻 Windows PC용 EXE 바로 받기**: [RemoteInputServer.exe](https://github.com/rech4210/remote-input-overlay/releases/latest/download/RemoteInputServer.exe)
+- **📦 전체 버전 목록 / 통합 ZIP**: [Releases 페이지](https://github.com/rech4210/remote-input-overlay/releases/latest)
 
 ### 2단계: Windows PC 서버 실행
-1. **`RemoteInputServer.exe`** 를 더블클릭해 실행합니다. *(방화벽 팝업이 뜨면 **사설 네트워크 허용** 선택)*
+1. **`RemoteInputServer.exe`** 를 더블클릭해 실행합니다.
+   - *(Windows "PC 보호" 파란 창이 뜨면 **`추가 정보 → 실행`** 을, 방화벽 팝업이 뜨면 **`사설 네트워크 허용`** 을 눌러주세요.)*
 2. 창에 표시된 **`QR 코드`** 를 스마트폰 앱의 **`📷 QR 코드로 1초 연결`** 버튼으로 스캔하면 IP·포트·토큰이 한 번에 자동 입력됩니다.
 3. *(직접 입력 시)* 창에 표시된 **`Tailscale IP`** (`100.x.y.z`)와 같은 폴더에 자동 생성된 **`.overlay_token`** 파일 내용을 앱에 붙여넣으시면 됩니다. *(사용자 PC마다 고유한 무작위 토큰이 자동 생성됩니다.)*
 
@@ -64,7 +66,7 @@ Android 스마트폰에서 원격 화면(Parsec 등) 위에 투명 터치 컨트
 - **태블릿 터치패드**: 드래그로 마우스 이동, **1손가락 탭 = 제자리 좌클릭**, **2손가락 탭 = 우클릭**, 상단 **`정밀`** 버튼으로 미세 이동 전환 *(`⚙ → 태블릿 정밀도`에서 감도 조절)*
 - **스마트 `Tab` 스와이프**: `TAB` 버튼을 누른 채 상/하/좌/우로 밀면 설정한 간격마다 1틱씩 탐색
 - **프리셋 저장·공유 (`📋` / `⚙ → 프리셋`)**: 슬롯 1~5 저장, **슬롯별 이름 변경(`✎`)**, 상단 `📋` 버튼으로 빠른 전환, 텍스트 복사/붙여넣기 공유 지원
-- **자동 업데이트 · 로드맵 · 피드백**: 새 버전이나 공지가 등록되면 Android 앱과 PC 서버 모두에 안내되며, 앱 하단에서 **업데이트 계획(로드맵)** 확인 및 **피드백/버그 제보**를 보낼 수 있습니다.
+- **자동 업데이트 · 로드맵 · 피드백**: 새 버전이나 공지가 등록되면 Android 앱과 PC 서버 모두에 안내되며, 앱 하단에서 **업데이트 계획(로드맵)** 확인 및 **[비로그인 피드백/버그 제보](https://forms.gle/gepva2zctACe9hUK8)** 를 보낼 수 있습니다.
 
 <details>
 <summary><b>연결 문제 해결 (자주 묻는 질문 펼치기)</b></summary>
