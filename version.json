@@ -1,8 +1,8 @@
 {
-  "latestVersionCode": 18,
-  "latestVersionName": "1.5.4",
+  "latestVersionCode": 19,
+  "latestVersionName": "1.5.5",
   "latestServerVersion": "1.4.0",
-  "downloadUrl": "https://github.com/rech4210/remote-input-overlay/releases/latest/download/RemoteInputOverlay-v1.5.4.apk",
+  "downloadUrl": "https://github.com/rech4210/remote-input-overlay/releases/latest/download/RemoteInputOverlay-v1.5.5.apk",
   "feedbackUrl": "https://forms.gle/gepva2zctACe9hUK8",
   "presetSubmitUrl": "https://forms.gle/TFwHwKtfB8uzeE1U8",
   "serviceEnabled": true,
@@ -10,9 +10,9 @@
   "allowSequenceMacro": true,
   "allowToggleHold": true,
   "blockMessage": "",
-  "noticeId": "v1.5.4-ready",
-  "notice": "Remote Input Overlay v1.5.4 출시! 필살기용 ⏱ 스킬 쿨타임 타이머(시계방향 게이지 + 완료 플래시·팝·더블 햅틱)가 추가되었습니다.",
-  "changelog": "• ⏱ 커스텀 키 '스킬 쿨타임 타이머' 추가 (✎ 편집 → 버튼 탭에서 0.5~300초 또는 원탭 프리셋 설정)\n• ✨ 게이머용 쿨타임 완료 피드백: 시계방향 라디얼 스윕, 3초 이하 소수점 카운트다운, 완료 순간 시안 네온 플래시 + 탄성 팝 + 더블 틱 햅틱\n• ✊ 터치패드 '잡기(드래그 락)' & 커스텀 키 최대 48개 확장 포함",
+  "noticeId": "v1.5.5-ready",
+  "notice": "Remote Input Overlay v1.5.5 출시! 📂 묶음 팔레트 키(Ctrl·Shift·Alt·Enter 등 자유 묶음)와 깔끔한 ⏱ 쿨타임 하위 팝업이 적용되었습니다.",
+  "changelog": "• 📂 묶음 팔레트 키(FOLDER) 추가: 눌러도 PC에 입력이 나가지 않고 묶어둔 키(최대 8개)만 깔끔하게 펼쳐주는 빈 폴더 버튼 (커스텀 키 추가 → 자주 쓰는 키 → 📂팔레트)\n• ⏱ 쿨타임 설정 UI를 전용 하위 팝업으로 분리해 키 편집 팝업 하단 버튼 뭉개짐 해결",
   "roadmap": [
     "✅ QR 코드 1초 연결 & 프리셋 이름 커스텀 (v1.1.0 완료)",
     "✅ 추천 프리셋 갤러리 & 버튼 복제 (v1.2.0 완료)",
@@ -24,6 +24,7 @@
     "✅ 익명 사용 통계(Opt-out) 대시보드 연동 (v1.5.2 완료)",
     "✅ 터치패드 ✊잡기(마우스 드래그 락) & 커스텀 키 48개 확장 (v1.5.3 완료)",
     "✅ 필살기 ⏱ 스킬 쿨타임 타이머 & 완료 플래시·팝·더블 햅틱 (v1.5.4 완료)",
+    "✅ 📂 묶음 팔레트 키 & 쿨타임 전용 하위 팝업 정돈 (v1.5.5 완료)",
     "📌 개인 엄지 각도 보정 (10초 캘리브레이션)",
     "📌 후원자 전용 감성 꾸미기 테마 (네온/글래스/버튼 색상 커스텀 — 핵심 기능 차이 0%)"
   ]
