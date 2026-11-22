@@ -1,8 +1,8 @@
 {
-  "latestVersionCode": 16,
-  "latestVersionName": "1.5.2",
+  "latestVersionCode": 17,
+  "latestVersionName": "1.5.3",
   "latestServerVersion": "1.4.0",
-  "downloadUrl": "https://github.com/rech4210/remote-input-overlay/releases/latest/download/RemoteInputOverlay-v1.5.2.apk",
+  "downloadUrl": "https://github.com/rech4210/remote-input-overlay/releases/latest/download/RemoteInputOverlay-v1.5.3.apk",
   "feedbackUrl": "https://forms.gle/gepva2zctACe9hUK8",
   "presetSubmitUrl": "https://forms.gle/TFwHwKtfB8uzeE1U8",
   "serviceEnabled": true,
@@ -10,9 +10,9 @@
   "allowSequenceMacro": true,
   "allowToggleHold": true,
   "blockMessage": "",
-  "noticeId": "v1.5.2-ready",
-  "notice": "Remote Input Overlay v1.5.2 최신 버전입니다. 문의나 건의는 하단 피드백 버튼으로 남겨주세요!",
-  "changelog": "• 🛡 향후 정책 대응을 위한 원격 기능 안전장치 내장 (현재 모든 기능 정상 개방 상태)",
+  "noticeId": "v1.5.3-ready",
+  "notice": "Remote Input Overlay v1.5.3 출시! 터치패드 ✊잡기(마우스 드래그 락)와 커스텀 키 최대 48개 확장이 적용되었습니다.",
+  "changelog": "• ✊ 태블릿 터치패드 '잡기(드래그 락)' 버튼 추가 (손을 떼고 다시 밀어도 끊기지 않는 정밀 드래그, 1손가락 탭으로 제자리 놓기)\n• ⌨️ 커스텀 키 최대 개수 24개 → 48개로 2배 확장\n• 💻 PC 서버: 관리자 권한 자동 실행(--uac-admin), Tailscale 방화벽 자동 등록, 토큰/로그 경로 단일화",
   "roadmap": [
     "✅ QR 코드 1초 연결 & 프리셋 이름 커스텀 (v1.1.0 완료)",
     "✅ 추천 프리셋 갤러리 & 버튼 복제 (v1.2.0 완료)",
@@ -22,6 +22,7 @@
     "✅ 한/영 꼬임 없는 퀵 채팅 바 & 1탭 채팅 키 기본 배치 (v1.4.1 완료)",
     "✅ 태블릿 터치패드 120Hz 스무딩 & 스마트 Tab 발동 토글 (v1.4.3 완료)",
     "✅ 익명 사용 통계(Opt-out) 대시보드 연동 (v1.5.2 완료)",
+    "✅ 터치패드 ✊잡기(마우스 드래그 락) & 커스텀 키 48개 확장 (v1.5.3 완료)",
     "📌 개인 엄지 각도 보정 (10초 캘리브레이션)",
     "📌 후원자 전용 감성 꾸미기 테마 (네온/글래스/버튼 색상 커스텀 — 핵심 기능 차이 0%)"
   ]
