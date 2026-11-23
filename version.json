@@ -1,8 +1,8 @@
 {
-  "latestVersionCode": 22,
-  "latestVersionName": "1.6.2",
+  "latestVersionCode": 24,
+  "latestVersionName": "1.7.0",
   "latestServerVersion": "1.4.1",
-  "downloadUrl": "https://github.com/rech4210/remote-input-overlay/releases/latest/download/RemoteInputOverlay-v1.6.2.apk",
+  "downloadUrl": "https://github.com/rech4210/remote-input-overlay/releases/latest/download/RemoteInputOverlay-v1.7.0.apk",
   "feedbackUrl": "https://forms.gle/gepva2zctACe9hUK8",
   "presetSubmitUrl": "https://forms.gle/TFwHwKtfB8uzeE1U8",
   "serviceEnabled": true,
@@ -10,9 +10,9 @@
   "allowSequenceMacro": true,
   "allowToggleHold": true,
   "blockMessage": "",
-  "noticeId": "v1.6.2-ready",
-  "notice": "Remote Input Overlay v1.6.2 출시! 블루투스 모드에 '📡 페어링 준비 (HID 키보드·마우스 먼저 켜기)' 버튼이 추가되었습니다.",
-  "changelog": "• 📡 블루투스 모드 '페어링 준비' 버튼 추가: Windows가 스마트폰을 일반 전화기가 아닌 실제 HID 키보드·마우스로 인식하도록 페어링 전에 HID 프로필을 먼저 활성화 & 검색 허용\n• ⊞ Windows 키(LWIN) & Win 조합키 포함",
+  "noticeId": "v1.7.0-ready",
+  "notice": "Remote Input Overlay v1.7.0 정식 출시! 🔁 2단계 교대 키, 🎯 스킬 가이더(타일 사거리 격자), 🎯 전 스킬 스마트 타겟팅, ⏱ 60분 버프 타이머, 💊 초소형 알약 접기, 🔵 블루투스 안정화가 모두 반영되었습니다.",
+  "changelog": "• 🔁 2단계 교대 키 (1탭→2탭): 1번째 탭은 원래 키, 2번째 탭은 Enter(스킬 발사)·ESC(창 닫기)·원하는 키 전송\n• 🎯 스킬 가이더 (타일 사거리 격자): 1칸 크기·사거리(1~8칸)·중심 보정 설정 가능한 100% 터치 통과 격자 HUD\n• 🎯 스마트 타겟팅 스와이프 전 스킬 확장: 누른 채 밀고 떼면 Enter 확정 시전\n• ⏱ 쿨타임·장기 버프 타이머 60분 확장 (mm:ss 표시 + 30초 이상 타이머 종료 10초 전 노란 깜빡임 경고)\n• 💊 초소형 알약 접기 (– → + BT●/TS●) & 상단 모드 표시 강화\n• 🔵 블루투스 무설치 모드 안정화 (자동 재시도, Shift+; 4단계 조합키 타이밍, PC 우선 정렬, 스피커 간섭 완화)",
   "roadmap": [
     "✅ QR 코드 1초 연결 & 프리셋 이름 커스텀 (v1.1.0 완료)",
     "✅ 추천 프리셋 갤러리 & 버튼 복제 (v1.2.0 완료)",
@@ -23,9 +23,9 @@
     "✅ 태블릿 터치패드 120Hz 스무딩 & 스마트 Tab 발동 토글 (v1.4.3 완료)",
     "✅ 익명 사용 통계(Opt-out) 대시보드 연동 (v1.5.2 완료)",
     "✅ 터치패드 ✊잡기(마우스 드래그 락) & 커스텀 키 48개 확장 (v1.5.3 완료)",
-    "✅ 필살기 ⏱ 스킬 쿨타임 타이머 & 완료 플래시·팝·더블 햅틱 (v1.5.4 완료)",
-    "✅ 📂 묶음 팔레트 키 & 쿨타임 전용 하위 팝업 정돈 (v1.5.5 완료)",
-    "✅ 🔵 PC 무설치 블루투스 HID 모드 & 📡 페어링 준비 지원 (v1.6.2 완료)",
+    "✅ 📂 묶음 팔레트 키 & ⊞ Windows 키 지원 (v1.6.1 완료)",
+    "✅ 🔵 블루투스 무설치 모드 안정화 + 🔁 2단계 교대 키 + 🎯 스킬 가이더 + ⏱ 60분 타이머 + 💊 알약 접기 (v1.7.0 완료)",
+    "📌 직업별 원클릭 추천 프리셋 갤러리 확충",
     "📌 개인 엄지 각도 보정 (10초 캘리브레이션)",
     "📌 후원자 전용 감성 꾸미기 테마 (네온/글래스/버튼 색상 커스텀 — 핵심 기능 차이 0%)"
   ]
