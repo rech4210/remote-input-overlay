@@ -1,8 +1,8 @@
 {
-  "latestVersionCode": 20,
-  "latestVersionName": "1.6.0",
-  "latestServerVersion": "1.4.0",
-  "downloadUrl": "https://github.com/rech4210/remote-input-overlay/releases/latest/download/RemoteInputOverlay-v1.6.0.apk",
+  "latestVersionCode": 21,
+  "latestVersionName": "1.6.1",
+  "latestServerVersion": "1.4.1",
+  "downloadUrl": "https://github.com/rech4210/remote-input-overlay/releases/latest/download/RemoteInputOverlay-v1.6.1.apk",
   "feedbackUrl": "https://forms.gle/gepva2zctACe9hUK8",
   "presetSubmitUrl": "https://forms.gle/TFwHwKtfB8uzeE1U8",
   "serviceEnabled": true,
@@ -10,9 +10,9 @@
   "allowSequenceMacro": true,
   "allowToggleHold": true,
   "blockMessage": "",
-  "noticeId": "v1.6.0-ready",
-  "notice": "Remote Input Overlay v1.6.0 출시! 🔵 PC 무설치 블루투스 HID 키보드·마우스 모드가 추가되었습니다.",
-  "changelog": "• 🔵 블루투스 (PC 무설치) 모드 추가: PC에 EXE·Tailscale·방화벽 없이 블루투스 페어링만으로 진짜 물리 키보드·마우스처럼 조작 (Android 9+ / 근거리·집 전용)\n• 🌐 기존 Tailscale PC 서버 모드와 메인 화면 상단 탭으로 언제든 전환 가능 (외부 5G 접속 & 한글 퀵채팅은 Tailscale 모드 지원)",
+  "noticeId": "v1.6.1-ready",
+  "notice": "Remote Input Overlay v1.6.1 출시! ⊞ Windows 키(단독 + Win 조합키)가 PC 서버와 블루투스 모드 모두에 추가되었습니다.",
+  "changelog": "• ⊞ Windows 키(LWIN) 추가: 커스텀 키 '자주 쓰는 키 → ⊞Win' 및 조합키 빌더(Win+D, Win+Tab 등) 지원 (Tailscale 서버 v1.4.1 + 블루투스 HID 모두 지원)\n• 🔵 PC 무설치 블루투스 HID 모드 포함",
   "roadmap": [
     "✅ QR 코드 1초 연결 & 프리셋 이름 커스텀 (v1.1.0 완료)",
     "✅ 추천 프리셋 갤러리 & 버튼 복제 (v1.2.0 완료)",
@@ -26,6 +26,7 @@
     "✅ 필살기 ⏱ 스킬 쿨타임 타이머 & 완료 플래시·팝·더블 햅틱 (v1.5.4 완료)",
     "✅ 📂 묶음 팔레트 키 & 쿨타임 전용 하위 팝업 정돈 (v1.5.5 완료)",
     "✅ 🔵 PC 무설치 블루투스 HID 키보드·마우스 모드 (v1.6.0 완료)",
+    "✅ ⊞ Windows 키(단독 + 조합키) 지원 (v1.6.1 완료)",
     "📌 개인 엄지 각도 보정 (10초 캘리브레이션)",
     "📌 후원자 전용 감성 꾸미기 테마 (네온/글래스/버튼 색상 커스텀 — 핵심 기능 차이 0%)"
   ]
