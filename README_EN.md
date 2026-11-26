@@ -95,9 +95,11 @@ flowchart LR
 
 - **Precision Trackpad & `✊Grab` Drag Lock**: Smooth 1€-filtered mouse trackpad with 1-finger L-Click, 2-finger R-Click, **Fine Precision** mode, and **`✊Grab`** left-button drag lock for dragging windows or inventory items effortlessly.
 - **🔁 2-Stage Alternate Keys**: Tap once to send Key A (e.g., skill/menu), tap again to send Key B (`↵Enter` confirm / `ESC` close / any custom key). Auto-resets after 6 seconds for `Enter`/`ESC`.
-- **⏱ Cooldown & Buff Timers (up to 60 min)**: Clockwise radial pie overlay + `mm:ss` readout, pulsing amber warning in the final 10 seconds for timers ≥ 30s, plus ready flash & double-tap haptic.
+- **⏱ Cooldown & Buff Timers (up to 60 min)**: Clockwise radial pie overlay + `mm:ss` readout, non-intrusive **click-through top HUD pill alert** & pulsing amber warning 10s before timers ≥ 30s expire, plus ready flash & double-tap haptic.
 - **🎯 Smart Targeting Swipe**: Enable on `TAB` or any custom key — press, drag in 4 directions to step cursor, release to confirm with `Enter`.
-- **🎯 Click-Through Skill Range Grid**: 100% touch-passthrough tile grid with configurable tile pixel size, range (1–8 tiles), center offset, and opacity.
+- **🎯 Click-Through Skill Range Grid & 2D Floor Footpad Markers**: 100% touch-passthrough 2D tile grid with 3 shapes (Cross+Box, Full Grid, Manhattan Diamond), dual range rings, tile aspect ratio, independent border/ruler/fill colors, and an interactive **`9×9` 2D floor footpad marker picker**.
+- **🎨 6 Global Themes, Per-Key 8 Colors & Side-Docked Live Peek Settings**: Switch between 6 global themes or color individual buttons (`✎ Edit Mode`). Settings popups dock cleanly to the Left/Right edge (`⇄`), drag freely (`⠿`), and turn translucent (`16%`) while dragging sliders.
+- **👆 Cross-Window Multi-Touch (`FLAG_SPLIT_TOUCH`) & Toggle-Hold Auto-Recovery**: Full simultaneous movement + attack/skill multi-touch across phones and Android handhelds (e.g., Retroid Pocket), plus automatic `120ms` recovery for held keys on Windows Server `v1.4.3`.
 - **📂 Radial Palettes & Sub-Keys**: Pack up to 8 actions into one radial wheel button. Full `Ctrl`/`Shift`/`Alt`/`⊞Win` chord & key sequence support.
 - **💬 Quick Chat Bar**: Temporarily hides the overlay while typing so your on-screen keyboard is never blocked.
 - **☁️ Preset Slots & Live Gallery**: 5 quick slots, built-in online gallery (**PC Remote Essentials**, **WASD Action/MMO**, RPG presets), and clipboard share/import.
